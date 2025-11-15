@@ -1,0 +1,10 @@
+# 1684. Count the Number of Consistent Strings
+# Time Complexity: O(W × L)
+# Space Complexity: O(A)
+# Link: https://leetcode.com/problems/count-the-number-of-consistent-strings/submissions/1830080863
+
+Implemented solution using a Set to track allowed characters.
+Iterated through each word and validated characters efficiently.
+
+Mistake fixed:
+1. Previously used "=" instead of "===" in the flag comparison, causing incorrect logic.
